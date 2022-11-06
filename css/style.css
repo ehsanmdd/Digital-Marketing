@@ -268,6 +268,10 @@ link:hover {
     .md-text-left {
         text-align: left;
     }
+
+    .md-mx-initial {
+        margin: initial;
+    }
 }
 
 /* for large screen lg (1024px) */
@@ -433,4 +437,34 @@ link:hover {
     border-radius: 8px;
     z-index: 1;
 }
-/* -------------- /Digital Life Area style -------------------*/
+/* -------------- /Digital Life Area style ----------------*/
+/* ---------------- Counting Area style -------------------*/
+#site-main .counting-area {
+    padding: 7rem 0;
+}
+
+#site-main .counting-area .grid-one p {
+    width: 80%;
+}
+
+#site-main .counting-area .count-box {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+#site-main .counting-area .count-box .grid{
+    display: inline-grid;
+    grid-gap: 2px;
+    border-radius: 20px;
+    background: var(--text-light);
+    box-shadow: var(--box-shadow);
+}
+
+#site-main .counting-area .count-box .grid > div {
+    background-color: white;
+    padding: 2rem 2.5rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+/* --------------- /Counting Area style -------------------*/
