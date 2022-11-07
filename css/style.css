@@ -64,6 +64,14 @@ ul{
     color: var(--text-light);
 }
 
+.text-blue {
+    color: var(--bg-blue);
+}
+
+.text-purple {
+    color: var(--bg-purple);
+}
+
 .bg-gradient {
     background: var(--bg-gradient);
 }
@@ -84,6 +92,9 @@ ul{
     background: var(--bg-blue);
 }
 
+.bg-gradient-purple {
+    background: var(--bg-purple);
+}
 .bg-gradient-yellow {
     background: var(--bg-yellow);
 }
@@ -245,6 +256,10 @@ link:hover {
 
 .w-50 {
     width: 50%;
+}
+
+.round {
+    border-radius: 10px;
 }
 /* ------------------- /Global Class -------------------------*/
 /* ------------------- Media Query -------------------------*/
@@ -467,4 +482,40 @@ link:hover {
     text-align: center;
     border-radius: 1rem;
 }
-/* --------------- /Counting Area style -------------------*/
+/* ------------- /Counting Area style --------------*/
+/* --------------- Card Area style -----------------*/
+
+#site-main .card-area .grid {
+    column-gap: 3rem;
+    row-gap: 3rem;
+
+}
+
+#site-main .card-area .grid > div {
+    border-radius: .5rem;
+}
+
+/* --------------- /Card Area style ----------------*/
+/* --------------- /Recent Work Area style ----------------*/
+
+#site-main .recent-work-area .images-flex .flex-item {
+    width: 360px;
+    margin-bottom: 50px;
+}
+
+#site-main .recent-work-area .images-flex .flex-item {
+    border-radius: 10px;
+}
+
+/* --------------- /Recent Work Area style ----------------*/
+/* --------------- Article Area style ----------------*/
+
+#site-main .article-area .grid {
+    column-gap: 5rem;
+}
+
+#site-main .article-area .card article {
+    border-radius: 10px;
+}
+
+/* --------------- /Article Area style ---------------*/
