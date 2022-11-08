@@ -24,3 +24,8 @@ window.onload = function digital_fn (){
         fitwidth : true
     })
 }
+
+
+let rellax = new Rellax(".rellax", {
+    center : true
+})
