@@ -15,7 +15,7 @@ window.onload = function digital_fn (){
 
     })
 
-    //Masonry js
+    //Masonry JS Library
 
     let grid = document.querySelector("#site-main .recent-work-area .images-flex")
     let msnry = new Masonry(grid, {
@@ -25,6 +25,7 @@ window.onload = function digital_fn (){
     })
 }
 
+// Rellax JS Library
 
 let rellax = new Rellax(".rellax", {
     center : true
